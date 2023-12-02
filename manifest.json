@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Bypass browser",
+  "version": "0.1.2",
+  "author": "nano <@n1337testing@protonmail.com>",
+
+  "description": "A browser built to bypass schools web security",
+  "icons": {
+    "16": "images/bypass.png",
+    "32": "images/bypass.png",
+    "48": "images/bypass.png",
+    "128": "images/bypass.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "webview",
+    "audioCapture",
+    "videoCapture",
+    "fullscreen",
+    "pointerLock",
+    "http://*/*",
+    "https://*/*"
+    ]
+}

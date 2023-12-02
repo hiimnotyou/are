@@ -1,0 +1,12 @@
+{
+  "name": "bypass-browser",
+  "repository": "https://github.com/l4tt/Bypass-browser",
+  "version": "0.1.2",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}
